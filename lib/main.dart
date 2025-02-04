@@ -55,7 +55,7 @@ class MyHomePage extends StatelessWidget {
             SizedBox(height: 6, width: MediaQuery.of(context).size.width),
             ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> const ReadExamples()) );
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> ReadExamples()) );
                 }, child: const Text("Read Examples")),
             ElevatedButton(
                 onPressed: () {

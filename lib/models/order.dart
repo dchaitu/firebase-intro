@@ -13,7 +13,7 @@ class Order {
   factory Order.fromRTDB(Map<String, dynamic> data)
   {
     return Order(description: data['description']?? 'Drink',
-        customerName: data['customerName'],
+        customerName: data['customer'] ??'Chaitanya',
         price: data['price']?? 2.99,
         timestamp: (data['time']!=0)? DateTime.fromMicrosecondsSinceEpoch(data['time']) :DateTime.now()
     );
