@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "774307122059",
+    "firebase_url": "https://fir-intro-5897d-default-rtdb.firebaseio.com",
+    "project_id": "fir-intro-5897d",
+    "storage_bucket": "fir-intro-5897d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774307122059:android:61550734d052d96a3f3d8e",
+        "android_client_info": {
+          "package_name": "com.example.firebase_intro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW8OG_3aed8rdAA9Axq5ISx71ixRhFpE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
